@@ -9,8 +9,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
     <style>
+        * {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
         .remove-icon, .active-icon {
             display: none;
+        }
+        .btn-style {
+            display: flex;
+            justify-content: center;
         }
     </style>
 </head>
@@ -35,6 +42,9 @@
                         </span>
                     </p>
                 </div>
+                <div class="btn-style">
+                    <button class="button is-primary is-rounded">Submit</button>
+                </div>
             </form>
         </div>
     </section>
@@ -42,9 +52,10 @@
     <br>
     <div class="container">
         <div id="output">
-            
+
         </div>
     </div>
+    <script src="app.js"></script>
 </body>
 
 </html>
